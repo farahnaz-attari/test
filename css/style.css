@@ -1,0 +1,104 @@
+
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: white;
+
+  }
+
+  /* .item1 { grid-area: component1; }
+  .item2 { grid-area: component2; }
+  .item3 { grid-area: component3; }
+
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'component1 component1 component2 component2'
+      'component3 component3 component3 component3';
+      
+    grid-gap: 10px;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10rem !important;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    font-size: 30px;
+  }
+   */
+   .item1 {
+       width: 80%;
+       margin: 0 auto;
+       padding-top: 2rem;;
+   }
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;    
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex:1;
+    min-width: 30% ;
+    padding: 0 4px;
+    margin-left: 1rem;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    margin-left: 1.2rem;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .img3 {
+      padding-top: 5%;
+  }
+  .discription{
+      margin-left:2rem;
+  }
+  .paragraphStyle{
+      font-size: 18px;
+  }
+  .firstheader{
+      border-bottom: 1px solid white;
+      margin-bottom: 2rem;
+      text-align: center
+  }
+  .cardDesign{
+      margin-top: 12rem;
+  }
+  a{
+      text-decoration: none;
+    padding-bottom: 5px;
+border-bottom-color :red;
+border-bottom-width: 2px;
+  border-bottom-style: solid;
+  
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+    
