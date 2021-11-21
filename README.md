@@ -13,4 +13,4 @@
 * **Section: Answer your body's needs:** Each image in this section displayed in a modal on click.
 
 ## Test instructions
-* Use JavaScript to capture all anchor clicks, and `console.log()` the element which has been clicked.
+* Using JavaScript to capture all anchor clicks, and `console.log()` the element which has been clicked.
