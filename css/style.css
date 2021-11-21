@@ -171,6 +171,9 @@ p {
   .firstheader{
     border-bottom: none;
   }
+  .column{
+    justify-content: center;
+  }
   .column img{
     min-width: 20rem;
   }
