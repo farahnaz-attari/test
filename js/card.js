@@ -17,9 +17,9 @@ const addProduct = (id, productImg, productTitle, ProductDiscription,src) => {
 
 
 //Add Products
-addProduct("1","./image/food1.jpg","Card title","This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.","./newpage.html");
-addProduct("2","./image/food2.jpg","Card title","This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.","./newpage.html");
-addProduct("3","./image/food3.jpg","Card title","This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.","./newpage.html");
+addProduct("1","./image/food1.jpg","Card title","This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.","./html/food1.html");
+addProduct("2","./image/food2.jpg","Card title","This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.","./html/food2.html");
+addProduct("3","./image/food3.jpg","Card title","This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.","./html/food3.html");
 
 
 //fuction for generate product html
